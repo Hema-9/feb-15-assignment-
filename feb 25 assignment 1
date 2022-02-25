@@ -1,0 +1,27 @@
+code:
+n=int(input())
+l=[]
+t=[]
+for  i in range(n):
+    x=int(input())
+    l.append(x)
+x=0    
+for i in range(n):
+    if l[i]>=0:
+        t.append(l[i])
+        x=x+1       
+for i in range(x,n):
+     t.append(-x)
+     
+       
+print(t)
+        
+out put:
+=== RESTART: C:/Users/HEMA/AppData/Local/Programs/Python/Python39/positive.py ==
+4
+-2
+-3
+4
+5
+[4, 5, -2, -2]
+>>> 
